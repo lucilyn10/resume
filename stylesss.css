@@ -1,0 +1,410 @@
+body {
+    background-color: white; /* Black background */
+    color:black; /* Text color for better readability */
+    width: 70%;
+    height: 180%;
+    border-color: rgb(41,41,41);
+    padding-top: 60px; /* Adjust this value according to your header's height */
+  }
+  
+  header {
+    position: absolute;
+    top: 0.10%;
+  }
+  .custom-bg{
+    position: absolute;
+    top: 0%;
+    left:0%;
+    background-color: rgb(41,41,41);
+    width: 25%;
+    height: 220%;
+    }
+    .custom-pic{
+    position: absolute;
+    top: 0%;
+    left: 3%;
+   
+    }
+.contact{
+ position: absolute;
+ top:33%;
+ color: white;
+ left:4%;   
+}
+.custom-paragraph1 {
+    position: absolute;
+    top: 39%;
+    left:5%;
+    padding: 6px;
+    color: white;
+}
+.custom-paragraph1 a{
+  color: white;
+  top:30%;
+  line-height: 1.9;
+  font-size: 15px;
+}
+    
+.image-container{
+    position: absolute;
+    top: 41.50%;
+    left: 3%;
+    color: white;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (top) of the container */
+      }
+      
+.image-container img {
+margin-bottom: 8.50px; /* Add some space between the icons */
+}
+      
+.education{
+    position: absolute;
+    top:66.50%;
+    color: white;
+    left:4%;   
+}
+
+.custom-paragraph2{
+    color:white;
+    position: absolute;
+    top: 72.50%;
+    left:5%;
+    font-weight: bold;
+    padding: 6px;
+}
+.custom-paragraph2 ul{
+    padding: 6px;
+    font-weight: bold;
+    
+
+}
+.skill{
+    color:white;
+    position: absolute;
+    top: 106.50%;
+    left:4%;
+}
+.custom-paragraph3{
+    color:white;
+    position: absolute;
+    padding: 6px;
+    top: 113%;
+    left:5%;
+}
+.custom-paragraph3 ul{
+    padding: 6px;
+    line-height: 1.7;
+    font-weight: bold;
+    
+}
+.image5 {
+    width: 170px; /* Adjust width and height as needed */
+    height: 170px; /* Adjust width and height as needed */
+    border-radius: 50%; /* Makes the image appear as a circle */
+    object-fit: cover;
+  }
+  .language{
+    color:white;
+    position: absolute;
+    top: 154%;
+    left:4%;
+}
+.custom-paragraph4{
+    padding: 6px;
+    color:white;
+    position: absolute;
+    padding: 6px;
+    top: 160%;
+    left:5%;
+}
+.custom-paragraph4 ul{
+    padding: 6px;
+    font-weight: bold;
+}
+
+.name{
+    position: absolute;
+    top:10%;
+    left:30%;
+    color:black;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name1{
+    position: absolute;
+    top:18%;
+    left:30.50%;
+    color:rgb(41,41,41);;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line {
+    width: 6%; /* Adjust the width of the line */
+    height: 6px; /* Adjust the thickness of the line */
+    background-color: orange; /* Adjust the color of the line */
+    position: absolute;
+    top:26%;
+    left:30.50%;
+}
+.line1{
+    width: 45%; /* Adjust the width of the line */
+    height: 1.50px; /* Adjust the thickness of the line */
+    background-color: orange; /* Adjust the color of the line */
+    position: absolute;
+    top:39.50%;
+    left:26.50%;
+  }
+
+
+.profile {
+  position: absolute;
+  font-size: 20px;
+  color:black;
+  position: absolute;
+  font-weight: bold;
+  top:33%;
+  left:26.50%;
+  
+  }
+  .custom-paragraph5{
+    color: rgb(41,41,41);
+    position: absolute;
+    top: 40%;
+    left:26.50%;
+    line-height: 1.5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+  .line2{
+    width: 45%; /* Adjust the width of the line */
+    height: 2px; /* Adjust the thickness of the line */
+    background-color: orange; /* Adjust the color of the line */
+    position: absolute;
+    top:63%;
+    left:26.50%;
+  }
+
+
+.project {
+  position: absolute;
+  font-size: 20px;
+  color:black;
+  position: absolute;
+  font-weight: bold;
+  top:56.50%;
+  left:26.50%;
+  }
+ 
+
+  .project1 {
+    position: absolute;
+    font-size: 16px;
+    color: rgb(41,41,41);
+    position: absolute;
+    font-weight: bold;
+    top:62.50%;
+    left:27.50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .project1 ul{
+    line-height: 1.5;
+    font-weight: bold;
+    }
+
+    .project2 {
+      position: absolute;
+      font-size: 16px;
+      color: rgb(41,41,41);
+      position: absolute;
+      font-weight: bold;
+      top:75%;
+      left:27.50%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .project2 ul{
+      line-height: 1.5;
+      font-weight: bold;
+      }
+
+    .work {
+        position: absolute;
+        font-size: 20px;
+        color:black;
+        position: absolute;
+        font-weight: bold;
+        top:89%;
+        left:26.50%;
+        }
+    .line3{
+      width: 45%; /* Adjust the width of the line */
+      height: 2px; /* Adjust the thickness of the line */
+      background-color: orange; /* Adjust the color of the line */
+      position: absolute;
+      top:95.50%;
+      left:26.50%;
+        }
+    .developer{
+     position: absolute;
+      font-size: 18px;
+      color:black;
+      position: absolute;
+      font-weight: bold;
+      top:97%;
+      left:27%;
+    }
+    .tech{
+      position: absolute;
+       font-size: 18px;
+       color: black;
+       position: absolute;
+       font-weight: bold;
+       top:101.50%;
+       left:27.50%;
+     }
+    
+     .image{
+      position: absolute;
+      top:106%;
+      left:27.50%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+     .developer1 {
+      position: absolute;
+      font-size: 16px;
+      color:black;
+      position: absolute;
+      font-weight: bold;
+      top:106.25%;
+      left:29.50%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .developer2 {
+        position: absolute;
+        font-size: 16px;
+        color : rgb(41,41,41);
+        position: absolute;
+        top:109%;
+        left:27.50%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+  
+      .developer2 ul{
+      line-height: 1.5;
+      }
+      .intern{
+        position: absolute;
+         font-size: 18px;
+         color:black;
+         position: absolute;
+         font-weight: bold;
+         top:139%;
+         left:27%;
+       }
+       .tech1{
+        position: absolute;
+         font-size: 18px;
+         color: black;
+         position: absolute;
+         font-weight: bold;
+         top:143%;
+         left:27.50%;
+       }
+      
+       .image1{
+        position: absolute;
+        top:147%;
+        left:27.50%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+       .march {
+        position: absolute;
+        font-size: 16px;
+        color:black;
+        position: absolute;
+        font-weight: bold;
+        top:147.25%;
+        left:29.50%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+  
+        .march1{
+          position: absolute;
+          font-size: 16px;
+          color : rgb(41,41,41);
+          position: absolute;
+          top:150%;
+          left:27.50%;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+    
+        .march1 ul{
+        line-height: 1.5;
+        }
+        .ref {
+          position: absolute;
+          font-size: 20px;
+          color:black;
+          position: absolute;
+          font-weight: bold;
+          top:179%;
+          left:26.50%;
+          }
+      .line4{
+        width: 45%; /* Adjust the width of the line */
+        height: 2px; /* Adjust the thickness of the line */
+        background-color: orange; /* Adjust the color of the line */
+        position: absolute;
+        top:186.50%;
+        left:26.50%;
+      }
+      .custom-paragraph6{
+        padding: 6px;
+        color : rgb(41,41,41);
+        position: absolute;
+        padding: 6px;
+        top: 186%;
+        left:26.50%;
+        }
+        .custom-paragraph6 p{
+        line-height: 1.5;
+        font-weight: bold;
+        }
+        @media only screen and (max-width: 768px) {
+          body {
+              width: 90%; /* Adjust as needed */
+          }
+      
+          header {
+              top: 5px; /* Adjust as needed */
+          }
+      
+          .custom-bg {
+              width: 100%; /* Adjust as needed */
+              height: auto; /* Adjust as needed */
+          }
+      
+          .custom-pic {
+              left: 5%; /* Adjust as needed */
+          }
+      
+          .contact {
+              top: 10%; /* Adjust as needed */
+              left: 5%; /* Adjust as needed */
+          }
+      
+          .custom-paragraph1 {
+              top: 20%; /* Adjust as needed */
+              left: 5%; /* Adjust as needed */
+          }
+      
+          .image-container {
+              top: 25%; /* Adjust as needed */
+              left: 5%; /* Adjust as needed */
+          }
+      
+          /* Add more media queries for other elements as needed */
+      }
+          
